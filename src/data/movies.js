@@ -1,4 +1,4 @@
-export default movies = [
+const movies = [
     {
       title: "Gremlins",
       genre: "horror",
@@ -49,3 +49,5 @@ export default movies = [
       rating: 1
     },
   ];
+
+  export default movies
