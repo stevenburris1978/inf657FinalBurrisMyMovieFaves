@@ -7,24 +7,12 @@ import {
     Image,
   } from "react-native";
   import movies from "../../data/movies";
-  
+  import { MaterialCommunityIcons } from "@expo/vector-icons";
+
   export default function HomeScreen({ navigation }) {
     const navigateToMovieDetails = (movie) => {
       navigation.navigate("MovieDetails", { movie });
     };
-  
-    // const renderItem = ({ item }) => (
-    //   <TouchableOpacity onPress={() => navigateToProductDetails(item)}>
-    //     <View style={styles.cardContainer}>
-    //       <Image source={item.image} style={styles.productImage} />
-    //       <View style={styles.productDetails}>
-    //         <Text style={styles.productName}>{item.name}</Text>
-    //         <Text style={styles.productDescription}>{item.description}</Text>
-    //         <Text style={styles.productPrice}>{item.price}</Text>
-    //       </View>
-    //     </View>
-    //   </TouchableOpacity>
-    // );
   
     return (
       <View style={styles.container}>

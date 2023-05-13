@@ -26,6 +26,9 @@ const SignInScreen = ({ navigation }) => {
 
   return (
     <View style={styles.container}>
+      <Text>Please sign in with:</Text>
+      <Text>user name: newuser@mail.fhsu.edu</Text>
+      <Text>password: 123456</Text>
       <TextInput
         style={styles.input}
         placeholder="Email"

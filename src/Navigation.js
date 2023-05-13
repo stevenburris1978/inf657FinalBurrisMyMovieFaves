@@ -19,49 +19,9 @@ import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { createDrawerNavigator } from "@react-navigation/drawer";
-// define your screens or components
 
-// define your stacks
 const Stack = createStackNavigator();
-// function HomeStackScreen() {
-//   return (
-//     <HomeStack.Navigator>
-//       <HomeStack.Screen name="Home" component={HomeScreen} />
-//     </HomeStack.Navigator>
-//   );
-// }
 
-// const ExploreStack = createStackNavigator();
-// function ExploreStackScreen() {
-//   return (
-//     <ExploreStack.Navigator>
-//       <ExploreStack.Screen name="ExploreStack" component={ExploreScreen} />
-//     </ExploreStack.Navigator>
-//   );
-// }
-
-// const NotificationsStack = createStackNavigator();
-// function NotificationsStackScreen() {
-//   return (
-//     <NotificationsStack.Navigator>
-//       <NotificationsStack.Screen
-//         name="Notifications"
-//         component={NotificationScreen}
-//       />
-//     </NotificationsStack.Navigator>
-//   );
-// }
-
-// const MessagesStack = createStackNavigator();
-// function MessagesStackScreen() {
-//   return (
-//     <MessagesStack.Navigator>
-//       <MessagesStack.Screen name="Messages" component={MessagesScreen} />
-//     </MessagesStack.Navigator>
-//   );
-// }
-
-// define your bottom tab navigator
 
 function HomeStackScreen() {
   return (
@@ -134,7 +94,7 @@ function DrawerNavigator() {
   return (
     <FavoritesProvider>
       <Drawer.Navigator>
-        <Drawer.Screen name="Home" component={TabNavigator} />
+        <Drawer.Screen name="Home" component={Movies} />
         <Drawer.Screen name="Profile" component={ProfilePage} />
       </Drawer.Navigator>
     </FavoritesProvider>
