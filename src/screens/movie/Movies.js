@@ -9,7 +9,7 @@ import {
   import movies from "../../data/movies";
   import { MaterialCommunityIcons } from "@expo/vector-icons";
 
-  export default function HomeScreen({ navigation }) {
+  export default function Movies({ navigation }) {
     const navigateToMovieDetails = (movie) => {
       navigation.navigate("MovieDetails", { movie });
     };

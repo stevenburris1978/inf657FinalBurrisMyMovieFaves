@@ -33,6 +33,7 @@ function HomeStackScreen() {
       <Stack.Screen name="SignIn" component={SignInScreen} />
       <Stack.Screen name="SignUp" component={SignUpScreen} />
       <Stack.Screen name="Home" component={Movies} />
+      <Stack.Screen name="MovieDetails" component={MovieDetails} />
     </Stack.Navigator>
   );
 }
