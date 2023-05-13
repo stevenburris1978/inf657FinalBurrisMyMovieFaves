@@ -7,7 +7,7 @@ import { StyleSheet,
 import { MaterialCommunityIcons } from "@expo/vector-icons";
 import { Favorites } from "../../context/FavoritesContext";
 
-const MovieDetails = ({ route, navigation }) => {
+export default function MovieDetails ({ route, navigation }) {
   const { movie } = route.params;
   const { addItemToFavorites } = Favorites();
   const [quantity, setQuantity] = useState(1);
@@ -128,5 +128,3 @@ const styles = StyleSheet.create({
     color: "#fff",
   },
 });
-
-export default MovieDetails;

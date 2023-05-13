@@ -86,8 +86,8 @@ import {
       marginVertical: 10,
     },
     movieImage: {
-      width: "30%",
-      height: 100,
+      width: 100,
+      height: 150,
       resizeMode: "cover",
     },
     movieDetails: {

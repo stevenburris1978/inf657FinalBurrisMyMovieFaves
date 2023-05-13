@@ -12,13 +12,14 @@ import ProfilePage from "./screens/ProfilePage";
 import SignUpScreen from "./screens/SignUpScreen";
 
 import Movies from "./screens/movie/Movies";
-import MovieDetails from "./screens/movie/MovieDetails";
 import FavoritesScreen from "./screens/movie/FavoritesScreen";
+import MovieDetails from "./screens/movie/MovieDetails";
 
 import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { createDrawerNavigator } from "@react-navigation/drawer";
+
 
 const Stack = createStackNavigator();
 
